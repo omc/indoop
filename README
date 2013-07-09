@@ -1,0 +1,5 @@
+Indoop
+
+A Lucene Directory implementation that reads/writes to hadoop.  It implements a block cache for reads.  This, plus a locking mechanism, is what you'd need to let your indexes live directly in S3 or HDFS.
+
+I didn't extract many tests from the software that this is a part of.  It could be nice to just have normal Lucene integration tests, and verify that they work with this directory.
