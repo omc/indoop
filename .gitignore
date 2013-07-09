@@ -1,0 +1,14 @@
+.classpath
+.project
+.settings
+target
+/leaf
+.DS_Store
+tmp
+HEAD
+indexes
+index
+*.log
+commits
+*.crc
+remotes
